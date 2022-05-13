@@ -565,7 +565,6 @@ div.ipsPanel.ipsDWDReport .title {
 
 .ipsLogin>.content>div.password {
     height: 60px;
-    position: absolute;
     padding-top: 36px;
     margin-top: 0;
     bottom: 0;
