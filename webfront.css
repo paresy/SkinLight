@@ -28,6 +28,13 @@
 body{ 
 	font-family: 'Open Sans', 'Arial Narrow', sans-serif; }
 
+a:link, 
+a:visited, 
+a:focus, 
+a:hover, 
+a:active { 
+	color: #3aa9ff; }
+
 .ipsTabPane>.navigation {
 	font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif; }
 
@@ -323,6 +330,7 @@ div.ipsWebFront {
 	filter: invert(0.6);
 }
 
+.ipsCategory>.container .content .link>.documentLink, 
 .ipsCategory>.container .content .link>.keyboardLink, 
 .ipsCategory>.container .content .link>.chartLink, 
 .ipsCategory>.container .content .link>.timerLink, 
@@ -334,6 +342,14 @@ div.ipsWebFront {
 
 .ipsNotification .ipsIconClose,
 .ipsDialog .ipsIconClose {
+    filter: invert(0.6);
+}
+
+.documentLink.ipsIconDownload {
+    filter: invert(0.6);
+}
+
+.ipsviewLink.ipsIconMove {
     filter: invert(0.6);
 }
 
